@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Mods and Patches
+permalink: /patch-release/
 ---
 
 ***
