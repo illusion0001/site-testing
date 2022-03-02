@@ -1,14 +1,10 @@
 ---
 layout: single
-title: test
+title: Patches
 permalink: /patch/
 ---
 
 ***
-
-Full path
-
-{ % include_relative lis/Siren-LifeisStrange3-Orbis.md % }
 
 Relative
 
