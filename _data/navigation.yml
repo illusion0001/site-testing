@@ -4,8 +4,8 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Contact"
     url: /contact/
-  - title: "Mods and Patches"
-    url: /patch-release/
+  - title: "9999"
+    url: /patch/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
