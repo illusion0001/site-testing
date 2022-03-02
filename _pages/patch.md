@@ -12,7 +12,7 @@ Full path
 
 Relative path
 
-{% include_relative ../_patches/lis/Siren-LifeisStrange3-Orbis.md %}
+{% include_relative "../_patches/lis/Siren-LifeisStrange3-Orbis.md" %}
 
 <details>
 <summary> my text (click to expand) </summary>
