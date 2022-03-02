@@ -12,7 +12,7 @@ Full path
 
 Relative
 
-{% flexible_include lis/Siren-LifeisStrange3-Orbis.md %}
+{% flexible_include /patches/lis/Siren-LifeisStrange3-Orbis.md %}
 
 <details>
 <summary> my text (click to expand) </summary>
