@@ -221,7 +221,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-  - _plugins/flexible_include.rb
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -230,7 +229,6 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - _plugins/flexible_include.rb
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
