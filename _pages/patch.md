@@ -8,7 +8,7 @@ permalink: /patch-release/
 
 Full path
 
-{ % include /_patches/lis/Siren-LifeisStrange3-Orbis.md % }
+{ % include lis/Siren-LifeisStrange3-Orbis.md % }
 
 <details>
 <summary> my text (click to expand) </summary>
