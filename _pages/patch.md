@@ -8,7 +8,7 @@ permalink: /patch-release/
 
 Full path
 
-{ % include lis/Siren-LifeisStrange3-Orbis.md % }
+{ % include_relative lis/Siren-LifeisStrange3-Orbis.md % }
 
 Relative
 
