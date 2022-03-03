@@ -12,15 +12,9 @@ Author: [illusion](https://twitter.com/illusion0002)
 
 In file `eboot.bin`
 
-{% include code_header.html %}
-```
-0x414B742 EB 07
-```
-
 <details>
 <summary>Code 1.05 (Click to Expand)</summary>
 
-{% include code_header.html %}
 ```
 0x414B742 EB 07
 ```
@@ -36,7 +30,6 @@ In file `eboot.bin`
 <details>
 <summary>Code 1.05 (Click to Expand)</summary>
 
-{% include code_header.html %}
 ```
 0x3A0540C 48 E8 C1 84 5D 02
 
