@@ -1,17 +1,22 @@
-// https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/
+// https://github.com/remarkablemark/remarkablemark.github.io/commit/614f16f
 
-const codeBlocks = document.querySelectorAll('.code-header + .highlighter-rouge');
-const copyCodeButtons = document.querySelectorAll('.copy-code-button');
-
-copyCodeButtons.forEach((copyCodeButton, index) => {
-  const code = codeBlocks[index].innerText;
-
-  copyCodeButton.addEventListener('click', () => {
-    window.navigator.clipboard.writeText(code);
-    copyCodeButton.classList.add('copied');
-
-    setTimeout(() => {
-      copyCodeButton.classList.remove('copied');
-    }, 2000);
-  });
-});
+  document
+    .querySelector('.post-content')
+    .querySelectorAll('pre.highlight')
+    .forEach(function (pre) {
+      var button = document.createElement('button');
+      var copyText = 'Copy';
+      button.className = 'copy';
+      button.type = 'button';
+      button.ariaLabel = 'Copy code to clipboard';
+      button.innerText = copyText;
+      button.addEventListener('click', function () {
+        var code = pre.querySelector('code').innerText.trim();
+        navigator.clipboard.writeText(code);
+        button.innerText = 'Copied';
+        setTimeout(function () {
+          button.innerText = copyText;
+        }, 4000);
+      });
+      pre.appendChild(button);
+    });
